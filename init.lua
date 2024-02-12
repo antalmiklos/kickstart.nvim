@@ -671,4 +671,3 @@ local set = vim.opt -- set options
 set.tabstop = 4
 
 require("luasnip.loaders.from_vscode").lazy_load({ paths = { "./snippets" } })
-

@@ -17,5 +17,15 @@
 			"<h3 style=\"text-align: center\">$1</h3>"
 		],
 		"description": "Centered H3 for markdown to HTML"
+	},
+  	"Title card": {
+		"prefix": "titleCard",
+		"body": [
+			"<h1 style=\"text-align: center\">$1</h1>\n",
+			"Lecture: *$2*\n",
+			"Lecturer: *$3*\n",
+			"Date: *$4*\n\n"
+		],
+		"description": "Title card for lectures"
 	}
 }

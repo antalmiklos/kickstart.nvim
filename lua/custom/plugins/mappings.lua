@@ -48,4 +48,14 @@ wk.register({
 	},
 })
 
+-- File operations 
+wk.register({
+	["<leader>"] = {
+		f = {
+			name = "Create new file with todays date as filename",
+			n = {"<CMD>lua require(\"scripts.files\").createFile(\"newFile.md\")<CR>" , "Create new file with todays date as filename" },
+		}
+	},
+})
+
 return {}
