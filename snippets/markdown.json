@@ -1,0 +1,21 @@
+{
+  	"Centered h1": {
+		"prefix": "ch1",
+		"body": ["<h1 style=\"text-align: center\">$1</h1>"],
+		"description": "Centered H1 for markdown to HTML"
+	},
+  	"Centered h2": {
+		"prefix": "ch2",
+		"body": [
+			"<h2 style=\"text-align: center\">$1</h2>"
+		],
+		"description": "Centered H2 for markdown to HTML"
+	},
+  	"Centered h3": {
+		"prefix": "ch3",
+		"body": [
+			"<h3 style=\"text-align: center\">$1</h3>"
+		],
+		"description": "Centered H3 for markdown to HTML"
+	}
+}
